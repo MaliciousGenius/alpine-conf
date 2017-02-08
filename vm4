@@ -18,4 +18,4 @@ PROXYOPTS="none"
 APKREPOSOPTS="-r"
 SSHDOPTS="-c openssh"
 NTPOPTS="-c chrony"
-DISKOPTS="-m sys /dev/sda
+DISKOPTS="-m sys /dev/sda"
