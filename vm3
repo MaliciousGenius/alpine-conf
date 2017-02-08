@@ -1,0 +1,21 @@
+KEYMAPOPTS="us us"
+HOSTNAMEOPTS="-n node-storage-1"
+
+# Contents of /etc/network/interfaces
+INTERFACESOPTS="auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+	hostname node-storage-1.idkb.ru
+	address 80.93.179.221
+	netmask 255.255.255.248
+"
+
+DNSOPTS="-d local -n 188.93.16.19 109.234.159.91"
+TIMEZONEOPTS="-z Europe/Moscow"
+PROXYOPTS="none"
+APKREPOSOPTS="-r"
+SSHDOPTS="-c openssh"
+NTPOPTS="-c chrony"
+DISKOPTS="-m sys /dev/sda
