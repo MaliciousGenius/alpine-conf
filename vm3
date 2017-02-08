@@ -7,8 +7,8 @@ iface lo inet loopback
 
 auto eth0
 iface eth0 inet static
-	hostname node-storage-1.idkb.ru
-	address 80.93.179.221
+	hostname node-storage-1
+	address 80.93.x.x
 	netmask 255.255.255.248
 "
 
